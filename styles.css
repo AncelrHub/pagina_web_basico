@@ -1,0 +1,56 @@
+/* Estilos básicos de color, tipografía y espaciado */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado principal usando ID */
+#page-title {
+    color: #2e8b57;
+    text-align: center;
+}
+
+/* Estilo para la sección */
+section {
+    display: flex;
+  flex-direction: column; /* Para apilar los elementos verticalmente */
+  align-items: center;    /* Para centrar horizontalmente */
+  justify-content: center; /* Opcional, para centrar verticalmente si quieres */
+  text-align: center;      /* Para centrar el texto dentro de los elementos */
+  margin: 0 auto;          /* Para centrar el main en la página si tiene un ancho definido */
+  max-width: 800px; 
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+/* Estilo para la imagen usando clase */
+.imagen-ejemplo {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Estilo para el botón usando clase */
+#miBoton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#miBoton:hover {
+    background-color: #45a049;
+}
+.contenedor {
+  text-align: center;
+}
