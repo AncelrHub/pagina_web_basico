@@ -1,35 +1,42 @@
-**Aplicando conceptos aprendidos sobre HTML, CSS y JavaScript para crear desde cero una página web sencilla, integrando estilos y funcionalidad básica.**
+#Mi Página Web Básico.
+
+Este es un proyecto web simple que incluye un archivo HTML, CSS y JavaScript.
 
 <p>
-Requerimientos:
+Archivos incluidos
 </p>
 
-#Estructura HTML.
-- Usar etiquetas semánticas (header, main, section, footer).
-- Incluir al menos una imagen, un encabezado, un párrafo y un enlace.
+- `index.html` : La estructura principal de la página.
+- `style.css` : Los estilos visuales.
+- `script.js` : La lógica y funcionalidad en JavaScript.
 
-#Estilo CSS.
-- Crear un archivo CSS separado.
-- Aplicar estilos básicos de color, tipografía y espaciado.
-- Incluir al menos una regla de estilo con un selector de clase y un selector de ID.
+## Cómo ejecutar el proyecto:
 
-#Interactividad con JavaScript.
--Crear un archivo JavaScript separado.
--Implementar al menos una interacción simple (por ejemplo, mostrar un mensaje con alert() o cambiar el contenido de un elemento al hacer clic en un botón).
+1. **Clona o descarga el repositorio** en tu computadora.
 
-#Ejecucion.
--Utilizar la extensión Live Server de Cursor o VS Code para mostrar el sitio funcionando.
+2. **Abre Visual Studio Code** y abre la carpeta del proyecto.
 
+3. **Abre el archivo `index.html`** en Visual Studio Code.
+
+4. **Para visualizar la página en tu navegador:**
+   - Puedes hacer clic derecho en `index.html` y seleccionar **"Abrir con Live Server"** (si tienes la extensión Live Server instalada).
+
+- Si no tienes Live Server, también puedes abrir el archivo directamente en tu navegador:
+     - En tu explorador de archivos, navega hasta la carpeta del proyecto.
+     - Haz doble clic en `index.html` para abrirlo en tu navegador predeterminado.
+     - 
+## Requisitos
+- Visual Studio Code
+- Extensión **Live Server** (opcional, para una vista en vivo)
+
+## Cómo instalar Live Server
+1. En Visual Studio Code, ve a la pestaña de extensiones (`Ctrl+Shift+X`).
+2. Busca **Live Server**.
+3. Haz clic en **Instalar**.
+  
 <p>
 INICIAMOS A TRABAJAR:
 </p>
-
-
-#En una carpeta local Creamos nuestros archivos:
-
-- Index.html
-- Styles.css
-- Script-js
 
 # Usos Esenciales de Git como nuestro Sistema de Versiones:
 
@@ -48,20 +55,14 @@ Algunos de los temas:
 **Entre otros comandos...**
 
 
-##Algunos comandos en acción
+##Clonar con el link:
 
-...
+- git clone https://github.com/AncelrHub/pagina_web_basico.git
+- git remote add origin https://github.com/AncelrHub/pagina_web_basico.git
 
-git clone https://github.com/AncelrHub/pagina_web_basico.git
-git remote add origin https://github.com/AncelrHub/pagina_web_basico.git
-git branch -M main
-git push push -u origin main
 
-...
 
-<p>
-Espero las instrucciones sean de gran ayuda
-</p>
 
-Espero las instrucciones sean de gran ayuda
-</p>
+¡Y eso es todo! Ahora puedes ver y probar el proyecto fácilmente.
+
+---
